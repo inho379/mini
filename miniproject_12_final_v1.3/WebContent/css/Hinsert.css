@@ -1,0 +1,46 @@
+	body{
+	background: #f7f7f7;
+	
+	}
+	.singup-form {
+		width: 402px;
+    	margin: 50px auto;
+
+	}
+    .singup-form form {
+    	margin-bottom: 15px;
+    	background: #f7f7f7;
+        line-height: 14px;
+    	padding-bottom : 30px;
+    	border-bottom: 1px solid #e4e4e5;
+    }
+    .form-control, .btn {
+        min-height: 50px;
+        border-radius: 2px;
+    }
+    .btn {        
+        font-size: 15px;
+        font-weight: bold;
+        width : 140px;
+    }
+    .find_info a{
+   	 text-decoration: none;
+    
+    }
+    #yy, #mm, #dd{
+    	min-height: 40px;
+    	width: 134px;
+    }
+    .bir_yy{
+   		float: left;
+    
+    }
+    .bir_mm{
+   		float: left;
+    
+    }
+    .level-group{
+    	width: 402px;
+    	min-height: 40px;
+    	position: relative;
+    }

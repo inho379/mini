@@ -1,0 +1,126 @@
+	/* 	<!-- Header - 캐러셀  시작 --> */
+	/* Remove the navbar's default margin-bottom and rounded borders */
+	.header {
+		padding: 30px;
+		text-align: center;
+	}
+	
+	.header h3:before{
+		content: ' \26CF'; 
+	}	
+	
+	.header h3:after{
+		content: ' \26CF'; 
+	}
+	
+	.navbar {
+		margin-bottom: 0;
+		border-radius: 0;
+	}
+	
+	.carousel-inner {
+		background-color: none;
+		margin-bottom: 50px
+	}
+	
+	.carousel-inner img {
+		width: 100%; /* Set width to 100% */
+		margin: auto;
+		max-height: 500px;
+		height:300px;
+	}
+	
+	/* Hide the carousel text when the screen is less than 600 pixels wide */
+	@media ( max-width : 600px) {
+		.carousel-caption {
+			display: none;
+		}
+	}
+	
+	/* 	<!-- Header - 캐러셀  끝 --> */
+
+	/* 	<!-- 브랜드 컬럼 3개 & Tap 시작  --> */
+	
+	
+	.thumbnail img { min-height:200px; height:300px; width : 100%; max-width: 100%}
+	
+	.ImagesCategory {
+		width : 100%;
+		height: 300px;
+		margin-top: 10px"
+	}
+	.text-danger:before{
+		content: ' \263A';
+	}	
+	
+	.text-danger:after{
+		content: ' \2714'; 
+	}
+	
+	.prod_tit {
+	display:block;
+	height:15px;
+	font-size:12px;
+	color:#333;
+	margin:11px 5px 6px 5px;
+	}
+	.prod_price {
+	display:block;
+	color:#111;
+	position:relative;
+	text-align: center;
+	margin:11px 5px 6px 5px;
+	}
+	
+	.tabmenu{
+	border: 1px solid #E2E2E2;
+	}
+	/* <!-- 브랜드 컬럼 3개 & Tap 끝  --> */
+	
+	/* <!-- iframe youtube 시작  --> */
+	.text {
+	position: absolute;
+	bottom: 0;
+	background: rgb(0, 0, 0); /* Fallback color */
+	background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+	color: #f1f1f1;
+	width: 100%;
+	padding: 20px;
+	text-align: center;
+	}
+	
+	/* <!-- iframe youtube 끝  --> */
+	
+	/* 	<!--  footer 시작 -->	 */
+	ul, li {argin:0px; padding:0px;list-style:none;vertical-align: top;}
+	.web .onM {display:none !important}
+	.footer-lge {
+	
+	border-top:1px solid #3f3f40;
+	background-color:#333;
+	margin: 40px 0px 10px 0px;
+	
+	}
+	
+	.footer-lge > .inner {position:relative;max-width:1400px;padding:0;margin:0 auto;padding-bottom:26px;color:#fff}
+	.footer-lge .shortcut {font-weight:200}
+	.footer-lge .shortcut > li:before {margin:0 12px;font-size:13px;line-height:1em;vertical-align:middle}
+	.footer-lge .shortcut > li:nth-child(1) {font-weight:bold}
+	.footer-lge .shortcut > li:nth-child(2) {font-weight:bold}
+	.footer-lge .shortcut a {font-size:13px;color:#fff;line-height:1em;vertical-align:middle}
+	.footer-lge .info {font-size:13px;color:#fff;line-height:20px}
+	.footer-lge .info > strong {font-weight:lighter}
+	.footer-lge .copynotice {display:block;float:right;margin-top:30px}       
+	.footer-lge .copyright {display:block;margin-top:10px;/*position:absolute;top:3px;right:0;font-size:13px;*/}
+	.footer-lge .notice {position:absolute;right:30px;bottom:45px;text-align:right}
+	.footer-lge .notice small {display:block;margin-bottom:10px;font-size:12px;line-height:46px}        
+	.footer-lge .notice strong {font-size:13px}       
+
+	/*array*/
+	 .array {overflow:hidden;margin:14px 0}     
+	 .array > li {float:left;/*font-size:18px;*/}      
+	 .array.f13 > li {font-size:13px}     
+	 .array > li:after {content:'|';margin:0 8px}
+	 .array > li:last-child:after {display:none}
+   
+	/* 	<!--  footer 끝 -->	 */

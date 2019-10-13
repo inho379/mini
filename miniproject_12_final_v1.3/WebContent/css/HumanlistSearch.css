@@ -1,0 +1,186 @@
+
+.page-header{
+    width: 100%;
+    border-bottom: 2px solid #888888;
+    
+}
+
+.page-header input{
+    float: right;
+    margin-top: -40px;
+}
+
+/* 빨간 라인 버튼 */
+.btn-red-line {
+    background-image: none;
+    background-color: #FFFFFF;
+    background: 10px;
+    text-shadow: none;
+    color: #fa2828;
+    border-color: #fa2828;
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+.table-title{
+    color: #666666;
+    margin-top: 0;
+}
+/* Content - Content Form - 목록테이블 */
+.table-cols > thead > tr > th,
+.table-cols > tbody > tr > th,
+.table-cols > tfoot > tr > th,
+.table-cols > thead > tr > td,
+.table-cols > tbody > tr > td,
+.table-cols > tfoot > tr > td {
+    /*white-space:nowrap;*/
+    border-top: 0;
+    border-bottom: 1px solid #E6E6E6;
+}
+.table-cols > tbody > tr > th {
+    background-color: #F6F6F6;
+}
+
+.table-cols > thead > tr > th,
+.table-cols > tbody > tr > th,
+.table-cols > tfoot > tr > th,
+.table-cols > thead > tr > td,
+.table-cols > tbody > tr > td,
+.table-cols > tfoot > tr > td {
+    padding: 8px 15px;
+    font-size: 12px;
+    height: 43px;
+}
+
+/* 검정색 버튼 */
+.btn-black {
+    background-image: none;
+    background-color: #666666;
+    text-shadow: none;
+    color: #FFFFFF;
+    border-color: #666666;
+    font-weight:bold;
+}
+
+.btn-black.active {
+    background-color: #444444;
+    border-color: #444444;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.btn-black:hover,
+.btn-black:focus {
+    background-color: #444444;
+    background-position: 0 -15px;
+    border-color: #444444;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.table-header {
+    overflow: hidden;
+    border-top: 1px solid #888888;
+}
+.table-header .pull-left {
+    /*float: left;*/
+    padding: 25px 0px 2px;
+    /*width: 300px;*/
+    font-family: Malgun Gothic,"맑은 고딕";
+    color: #666666
+}
+.table-header .pull-left strong {
+    color: #fa2828;
+}
+.form-inline .form-control {
+    display: inline-block;
+    width: auto;
+    vertical-align: middle;
+}
+
+.table-rows tr td:first-child:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -1px;
+    z-index: 100;
+    width: 2px;
+    height: 100%;
+    background: #fff;
+}
+
+.table-rows > tbody > tr > th,
+.table-rows > tfoot > tr > th,
+.table-rows > tbody > tr > td,
+.table-rows > tfoot > tr > td {
+    padding: 5px;
+    border-top: 1px solid #E6E6E6;
+    border-right: 1px solid #E6E6E6;
+    border-top: 1px solid #E6E6E6;
+    /*border-bottom: 1px solid #E6E6E6;*/
+}
+
+.table-rows > caption + thead > tr:first-child > th, .table-rows > colgroup + thead > tr:first-child > th, .table-rows > thead:first-child > tr:first-child > th, .table-rows > caption + thead > tr:first-child > td, .table-rows > colgroup + thead > tr:first-child > td, .table-rows > thead:first-child > tr:first-child > td {
+    border-top: 1px solid #AEAEAE;
+    border-bottom: 1px solid #AEAEAE;
+    border-right: 1px solid #aeaeae;
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+
+/***** 포인터**** 
+.hand {
+    cursor: pointer;
+}
+****************/
+.center, .table-btn{
+    text-align: center;
+}
+
+.clearfix:after {
+    content: " "; /* Older browser do not support empty content */
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+.table-action {
+    width: 100%;
+    overflow: hidden;
+    padding: 8px 0;
+    margin-top: -21px;
+    margin-bottom: 20px;
+    background:#f6f6f6;
+    border-top: 1px solid #E6E6E6;
+    border-bottom: 1px solid #E6E6E6;
+}
+
+.table-header .pull-left-btn {
+    float: left;
+    margin: 12px 5px;
+    width: 300px;
+    text-indent: 15px;
+    font-size: 11px;
+    font-family: '돋움', 'Dotum';
+    color: #666666
+}
+
+/* 하얀색 버튼 */
+.btn-white {
+    background-image: none;
+    background-color: #FFFFFF !important;
+    text-shadow: none;
+    color: #444444;
+    border-color: #CCCCCC;
+    -webkit-transition: border-color 0.2s ease;
+    -moz-transition: border-color 0.2s ease;
+    -o-transition: border-color 0.2s ease;
+    -ms-transition: border-color 0.2s ease;
+    transition: border-color 0.2s ease;
+}
+
+
